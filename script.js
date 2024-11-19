@@ -28,19 +28,19 @@ document.addEventListener("DOMContentLoaded", function() {
 let currentSlide = 0;
 const slides = [
     {
-        image: '/latihan/image/genshin.jpg',
+        image: '/utsmiqi/img/genshin.jpg',
         text: 'Explore the Fantasy World of Teyvat in Genshin Impact'
     },
     {
-        image: '/latihan/image/hsr.jpg',
+        image: '/utsmiqi/img/hsr.jpg',
         text: 'Embark on a Cosmic Odyssey, Rewrite the Stars!'
     },
     {
-        image: '/latihan/image/zzz.png',
+        image: '/utsmiqi/img/zzz.png',
         text: 'Survive in the Chaos of Zenless Zone Zero'
     },
     {
-        image: '/latihan/image/hi.png',
+        image: '/utsmiqi/img/hi.png',
         text: 'Join the Valkyries in Honkai Impact 3rd'
     }, 
 ];
