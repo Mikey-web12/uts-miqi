@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi - MiHoYo Fan Hub</title>
+    <link rel="stylesheet" href="cssjs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="/latihan/image/logomihoyo.jpg" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="logo"><i class="fas fa-dragon"></i> MiHoYo Fan Center</div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Beranda</a></li>
+                <li><a href="games.html"><i class="fas fa-gamepad"></i> Game</a></li>
+                <li><a href="characters.html"><i class="fas fa-users"></i>Galeri</a></li>
+                <li><a href="news.html"><i class="fas fa-newspaper"></i> Berita</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="register.html" class="active"><i class="fas fa-user-plus"></i> Registrasi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="registration">
+        <h2>Registrasi Untuk Mendapatkan Info Lebih</h2>
+        <form action="#" method="POST" id="registration-form">
+            <label for="username">Nama Pengguna:</label>
+            <input type="text" id="username" name="username" placeholder="Masukkan nama pengguna" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Masukkan email" required>
+
+            <label for="password">Kata Sandi:</label>
+            <input type="password" id="password" name="password" placeholder="Masukkan kata sandi" required>
+
+            <label for="confirm-password">Konfirmasi Kata Sandi:</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Ulangi kata sandi" required>
+
+            <label for="gender">Jenis Kelamin:</label>
+            <select id="gender" name="gender" required>
+                <option value="" disabled selected>Pilih jenis kelamin</option>
+                <option value="Laki-Laki">Laki-Laki</option>
+                <option value="Perempuan">Perempuan</option>
+            </select>
+
+            <label for="birthdate">Tanggal Lahir:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+
+            <label for="agreement">
+                <input type="checkbox" id="agreement" name="agreement" required>
+                Saya menyetujui <a href="#">syarat dan ketentuan</a>.
+            </label>
+
+            <button type="submit" class="button">Daftar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MiHoYo Fan Hub. All rights reserved.</p>
+        <p>Design By Ahmad Miqdar Haqiqi</p>
+    </footer>
+</body>
+</html>
